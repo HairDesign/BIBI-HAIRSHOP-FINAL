@@ -19,9 +19,10 @@
 - APACH TOMCAT 8
 
 ## Performance
-- CNN 기반 헤어 디자인 분류모델 검증 정확도(ex 여자모델 92.04%)
+- CNN 기반 헤어 디자인 분류모델 검증 정확도(ex 여자모델 92.04%)<br/>
+
 ![image](https://user-images.githubusercontent.com/77317737/118123199-e0ec2600-b42e-11eb-93e5-bdf8db6bc50c.png)
 
-- 웹페이지 예시
-![image](https://user-images.githubusercontent.com/77317737/118123304-05480280-b42f-11eb-9e2a-4f494e7fd4b7.png)
+- 웹페이지 예시<br/>
+![image](https://user-images.githubusercontent.com/77317737/118123304-05480280-b42f-11eb-9e2a-4f494e7fd4b7.png)<br/>
 ![image](https://user-images.githubusercontent.com/77317737/118123324-0bd67a00-b42f-11eb-90cc-d6a4dd76c806.png)

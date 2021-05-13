@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.findyourhair.hairanalysis.dao.BibiDao">
+
+
+<select id="shoplist" resultType="com.findyourhair.hairanalysis.vo.ShopVo"> 
+		SELECT  s.shopname, s.address, s.phonenum, s.url, s.topic1, s.topic2 
+		FROM shop s
+		INNER JOIN  groups g
+		ON (s.gubun = g.code)
+		WHERE s.gubun = #{gubun} 
+</select>
+
+
+
+<select id="face_style" resultType="com.findyourhair.hairanalysis.vo.FaceVo"> 
+		SELECT f.face, f.f_exp, s.style, s.s_exp
+    	FROM face f
+    	INNER JOIN style s
+    	ON (f.f_exp_code = s.f_exp_code)
+    	WHERE  f.gender = #{gender} 
+    	AND f.face_code=#{face_code};
+
+</select>
+
+<select id="style_tag" resultType="com.findyourhair.hairanalysis.vo.StyleVo"> 
+		SELECT t.style, t.s_tag
+    	FROM tag t
+     	WHERE t.gender= #{gender}
+    	AND t.style=#{style};
+
+    	
+</select>
+</mapper>

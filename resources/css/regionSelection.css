@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.regionImg {
+	width: 400px;
+	height: 330px;
+	background: url("../img/region.png");
+	margin: 0 auto 20px auto;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	background-size: 100%;
+	padding: 50px;	
+	background-position: center;
+}
+
+a:visited, a:link, a:active {
+	text-decoration: none;
+}
+
+a {
+	display: block;
+	color: white;
+	padding: 20px;
+}
+
+.gubun1, .gubun2, .gubun3, .gubun4, .gubun5 {
+ 	list-style-type : none;	
+	overflow: hidden;
+}
+
+.gubun1:hover, .gubun2:hover, .gubun3:hover
+, .gubun4:hover, .gubun5:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.regionSelection {
+	margin: 0 30%;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	list-style-type : none;	
+}
+

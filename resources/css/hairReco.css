@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+li{
+	list-style-type : none;	
+}
+
+.txt1 {
+	margin: 20px auto 40px auto;	
+	line-height: 27px;							
+}
+
+.hairReco {
+	display: flex;
+	line-height: 30px;							
+}
+
+.hairshop1, .hairshop2, .hairshop3 {
+	background-color: white;
+	margin: 20px auto 20px auto;
+	width: 25%;
+	height: 400px;
+	margin: 0 auto;
+	color: black;
+	font-weight: normal;
+	border-radius: 5px;
+}
+
+.hairshop {
+	background-position: cover;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.website, .address, .contact {
+	font-size: 16px;
+}
+
+.web {
+	display: block;	
+}
+
+.web:hover {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	background-color: rgba(144, 146, 163, 0.3);
+	height: 400px;
+}
+
+.web:visited, .web:link, .web:active {
+	text-decoration: none;
+	color: black;
+}
+
+.topic {
+	margin-top: 30px;
+	font-style: oblique;
+}
+
+.hairshopimg {
+	background: url(http://placehold.it/150x150);
+	background-position: cover;
+	text-indent: -9999px;
+	width: 150px;
+	height: 150px;
+	margin: 20px auto 20px auto;
+}
+
+.reco {
+	float: right;
+	margin: 30px 40px 0 auto;
+	color: white;
+	line-height: 27px;								
+}

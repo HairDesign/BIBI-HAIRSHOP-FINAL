@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+a:visited, a:link, a:active {
+	text-decoration: none;
+}
+
+li, .faceShapeImg1, .faceShapeImg2, .faceShapeImg3{
+	display: inline;
+}
+
+.faceShapeImg1, .faceShapeImg2, .faceShapeImg3 {
+	width: 200px;	
+	height: 200px;	
+	background: url(http://placehold.it/200x200);
+	/* border: 3px solid red; */
+	background-repeat: no-repeat;
+	text-indent: -9999px;	
+	background-size: cover;
+	margin: 0 10px;
+	overflow: hidden;
+}
+
+.hairReco {
+	display: flex;
+	justify-content: center;
+	width: 55%;
+	margin: 0 auto;
+}
+
+.kakaotalk, .facebook, .instagram {
+	display: inline-block;	
+	color: white;
+	padding: 10px;
+	text-indent: -9999px;
+	margin: 0 5px;	
+}
+
+.kakaotalk {
+	background: url("../img/카톡.png");
+	width: 10px;
+	height: 10px;
+	background-size: cover;
+	background-position: center;	
+	
+}
+
+.facebook {
+	background: url("../img/페북.png");
+	width: 10px;
+	height: 10px;
+	background-size: cover;
+	background-position: center;			
+}
+
+.instagram {
+	background: url("../img/인스타.png");
+	width: 10px;
+	height: 10px;
+	background-size: cover;
+	background-position: center;	
+}

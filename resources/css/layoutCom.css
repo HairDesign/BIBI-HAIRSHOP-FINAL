@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'SeoulNamsanM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font-family: 'SeoulNamsanM';
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	background-image: url("../img/배경이미지.jpg");	
+	background-size: 50%;
+	background-position: center;
+	z-index: -999;
+}
+
+.wrapperPink {
+	position: absolute;
+	float: left;
+	margin: 0 auto; 
+	text-align: center;
+ 	background-color: rgba( 128, 137, 192, 0.97);
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.wrapperGray {
+	position: absolute;
+	float: left;
+	margin: 0 auto; 
+	text-align: center;
+ 	background-color: rgba( 219, 175, 234, 0.97);
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.layer {/* 겉 테두리 */
+	/* border: 0.5px solid white; */
+	margin: auto;
+	margin-top: calc(50vh - 321px);	
+	padding: auto;		
+}
+
+.contents {
+	/* border: 2px dashed white; */
+	margin: 20px auto 60px auto;			
+	padding: 30px auto;		
+}
+
+.contentsUpload {
+	/* border: 2px dashed white; */
+	margin: 20px auto 60px auto;			
+	padding: 30px auto;		
+}
+
+.contentsUpload:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 40%;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+
+/* img!!! */
+.uploadImg {
+	background-image: url(../img/upload.png);
+	width: 200px;
+	height: 200px;
+	margin: 20px auto 20px auto;
+	padding: 20px auto 20px auto;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	background-size: 100%;
+	background-position: cover;	
+}
+
+.loadingImg {
+	background-image: url(../img/Searching.gif);
+	width: 200px;
+	height: 200px;
+	margin: 20px auto 20px auto;
+	padding: 20px auto 20px auto;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	background-size: 100%;
+	background-position: cover;			
+}
+
+.faceShapeImg {
+	background: url(http://placehold.it/200x200);
+	width: 200px;
+	height: 200px;
+	margin: 20px auto 20px auto;
+	padding: 20px auto 20px auto;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	background-size: 100%;
+	background-position: cover;		
+}
+
+.hairImg {
+	background: url(http://placehold.it/200x200);
+	width: 200px;
+	height: 200px;
+	margin: 20px auto 20px auto;
+	padding: 20px auto 20px auto;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	background-size: 100%;
+	background-position: cover;		
+}
+
+/* 콘텐츠 txt */
+.txt1 {
+	margin: 20px auto 20px auto;
+	font-size: 40px;
+}
+
+.faceShapeResult {
+	margin: 20px auto 20px auto;
+	font-size: 30px;	
+}
+
+.txt2 {
+	padding: 30px auto 30px auto;
+	font-size: 25px;
+	line-height: 27px;							
+}
+
+.txt3 {
+	padding: 20px auto 20px auto;
+	margin: 20px auto 20px auto;
+	line-height: 27px;	
+}
+
+/* 콘텐츠 내 button */
+.upload {	
+	cursor : pointer;
+}
+
+.upload {
+	margin: 50px 5px 50px 5px;
+	padding: 20px 70px 20px 70px;
+	cursor : pointer;
+	background: white;
+	border:none;
+	box-shadow: 5px 5px #94bbe9;
+	border-radius: 30px;
+	overflow: visible;
+	color: #94bbe9;
+	font-weight: bold;
+}
+
+.upload:hover {
+	background: #94bbe9;
+	color: white;
+	box-shadow: 5px 5px white;
+}
+
+.button {
+	margin: 50px 5px 50px 5px;
+	padding: 20px 70px 20px 70px;
+	cursor : pointer;
+	background: white;
+	border:none;
+	box-shadow: 5px 5px #94bbe9;
+	border-radius: 30px;
+	overflow: visible;
+	color: #94bbe9;
+	font-weight: bold;
+}
+
+.button:hover {
+	background: #94bbe9;
+	color: white;
+	box-shadow: 5px 5px white;
+}
+
+
+/* 리턴 버튼 */
+.return {
+	position: absolute;
+	width: 50px;
+	height: 50px;		
+	padding: 20px;
+	z-index: 9999;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-image: url(../img/Logo.png);
+	background-size: cover;	
+	text-indent: -9999px;	
+	background-repeat: no-repeat;	
+}
